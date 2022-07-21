@@ -24,25 +24,19 @@ export default defineAppConfig({
     list: [
       {
         pagePath: 'pages/index/index',
-        text: '首页',
+        text: '云诊室',
         iconPath: './assets/images/tabbar/home.png',
         selectedIconPath: './assets/images/tabbar/home_active.png',
       },
       {
-        pagePath: 'pages/category/index',
-        text: '分类',
-        iconPath: './assets/images/tabbar/category.png',
-        selectedIconPath: './assets/images/tabbar/category_active.png',
-      },
-      {
         pagePath: 'pages/cart/index',
-        text: '购物车',
+        text: '当前咨询',
         iconPath: './assets/images/tabbar/cart.png',
         selectedIconPath: './assets/images/tabbar/cart_active.png',
       },
       {
         pagePath: 'pages/user/index',
-        text: '我的',
+        text: '我的空间',
         iconPath: './assets/images/tabbar/user.png',
         selectedIconPath: './assets/images/tabbar/user_active.png',
       },
